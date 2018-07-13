@@ -1,0 +1,13 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#person {
+    height: 300px;
+    width: auto;
+}
+
+#brandStatement {
+    font-size: 24px;
+    padding: 0 10%;
+}
