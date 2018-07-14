@@ -22,7 +22,7 @@ class AboutMe extends Component {
     }
     render() {
         return (
-            <div className="section white center">
+            <div className="section white center" id="aboutMe">
                 <Row>
                     <Col s={12}>
                         <img id="person" src={person} alt="Personal Avatar" />

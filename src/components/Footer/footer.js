@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Footer from 'react-materialize';
 
 
-class PageFooter extends Component {
-    render() {
+const PageFooter = () => {
         return (
             <Footer copyrights="2018 Copyright TheNicholasCowan.com"
                 moreLinks={
@@ -22,7 +21,6 @@ class PageFooter extends Component {
                 <p className="grey-text text-lighten-4">Let me build something wonderful for you.</p>
             </Footer>
         )
-    }
 }
 
 export default PageFooter;
