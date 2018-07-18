@@ -11,29 +11,48 @@
 #person,
 #description,
 #react {
-    height: 300px;
+    height: 20vw;
     width: auto;
 }
 
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 100px;
-    color: white;
-    text-shadow: 5px 5px black;
+    font-size: 6vw;
+    color: rgba(252,252,252, .9);
+    text-shadow: .05em .05em rgba(0,0,0, .6);
     position: absolute;
     z-index: 1;
-    bottom: 37.5%;
-    padding-left: 20%;
+    bottom: 19vw;
+    /* padding-left: 20vw; */
 }
 
 .content {
     position: absolute;
-    bottom: 17.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* bottom: 5vw; */
     color: #f1f1f1;
     width: 100%;
     z-index: 0;
 }
 
 #codeIcon {
+    height: 45vw;
+    width: auto;
     opacity: .4;
 }
+
+@media screen and (max-width: 425px) {
+    h1 {
+        bottom: 15vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        bottom: 12vw;
+    }
+}
+
+
