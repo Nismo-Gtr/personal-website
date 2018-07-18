@@ -9,7 +9,7 @@ import linkedin from '../../assets/linkedin-original.svg';
 const NavBar = () => {
     return (
         <Headroom>
-            <Navbar brand='Nicholas Cowan' id="navbar" right fixed>
+            <Navbar brand='Nicholas Cowan' id="navbar" href="/"right fixed>
                 <NavItem href='#aboutMe'>About Me</NavItem>
                 <NavItem href='#portfolio'>Portfolio</NavItem>
                 <NavItem href='https://github.com/Nismo-Gtr'id="navLinks"><img src={github}/></NavItem>
