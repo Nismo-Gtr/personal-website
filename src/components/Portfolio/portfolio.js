@@ -35,7 +35,7 @@ class Portfolio extends Component {
                             <Card header={<CardTitle reveal image={clickGame} waves='light' />}
                                 title="React Click Game"
                                 reveal={<p>Here is some more information about this product that is only revealed once clicked on.<br />
-                                    <a href="https://friendfindernjc.herokuapp.com/">Friend Finder App</a></p>}>
+                                    <a href="https://friendfindernjc.herokuapp.com/">World Cup of Clicks</a></p>}>
                             </Card>
                         </Col>
                     </div>

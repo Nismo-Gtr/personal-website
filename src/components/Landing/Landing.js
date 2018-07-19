@@ -11,7 +11,7 @@ class Landing extends Component {
             <h1>Full Stack Web Developer</h1>
             <img src={codeIcon} id="codeIcon"/>
             </div>
-            <video id="background-video" loop autoPlay>
+            <video id="background-video" muted autoPlay loop>
                 <source src={snowing} />
             </video>
         </div>
