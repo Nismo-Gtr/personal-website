@@ -9,7 +9,6 @@
 }
 
 #person,
-#description,
 #react {
     height: 20vw;
     width: auto;
@@ -46,6 +45,11 @@ h1 {
 @media screen and (max-width: 425px) {
     h1 {
         bottom: 15vw;
+    }
+    #person,
+    #react {
+        height: 40vw;
+        width: auto;
     }
 }
 
