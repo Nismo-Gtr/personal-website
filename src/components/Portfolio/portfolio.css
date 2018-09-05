@@ -2,3 +2,24 @@
     display: flex;
     justify-content: flex-end;
 }
+
+/* .card img {
+    height: 25vw;
+    width: auto;
+} */
+
+#heading {
+    text-decoration: underline;
+}
+
+.ghLogo {
+    height: 4vw;
+    width: auto;
+}
+
+@media screen and (max-width: 440px) {
+    #portfolio img {
+        height: 65vw;
+        width: auto;
+    }
+}

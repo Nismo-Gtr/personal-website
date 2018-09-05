@@ -12,24 +12,38 @@
     padding: 5% 0 0 0;
 }
 
-img {
+#person {
+    /* margin-top: 100vh; */
     height: 20vw;
     width: auto;
 }
 
+#aboutMe {
+    z-index: -1;
+}
+
+#animeIcon {
+    margin-top: 4vw;
+    height: 20vw;
+}
+
 @media screen and (max-width: 440px) {
     #brandStatement {
-        font-size: 3vw;
+        font-size: 5vw;
         padding: 0 10%;
-        margin-top: -5%;
+        /* margin-top: -5%; */
+
     }
     
     .skills p {
-        font-size: 3vw;
-        padding: 5% 0 0 0;
+        font-size: 5vw;
+        padding: 0 5% 0 5%;
     }
-    img {
-        height: 50vw;
+    #person {
+        height: 20vh;
         width: auto;
+    }
+    #animeIcon {
+        height: 40vw;
     }
 }

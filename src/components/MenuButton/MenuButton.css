@@ -1,0 +1,8 @@
+#menuIcon {
+    position: fixed;
+    height: 10vh;
+    width: auto;
+    bottom: 5vh;
+    right: 5vw;
+    z-index: 3;
+}

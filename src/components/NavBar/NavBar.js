@@ -7,14 +7,15 @@ import mail from '../../assets/letter.svg';
 import linkedin from '../../assets/linkedin-original.svg';
 
 const NavBar = () => {
+
     return (
         <Headroom>
             <Navbar brand='Nicholas Cowan' id="navbar" href="/"right fixed>
                 <NavItem href='#aboutMe'>About Me</NavItem>
                 <NavItem href='#portfolio'>Portfolio</NavItem>
-                <NavItem href='https://github.com/Nismo-Gtr'id="navLinks"><img src={github}/></NavItem>
-                <NavItem href='https://linkedin.com/in/thenicholascowan' id="navLinks"><img src={linkedin} /></NavItem>
-                <NavItem href='mailto:Nick@thenicholascowan.com' id="navLinks"><img src={mail} /></NavItem>
+                <NavItem href='https://github.com/Nismo-Gtr'id="navLinks"><img src={github} alt="Git Hub Logo"/></NavItem>
+                <NavItem href='https://linkedin.com/in/thenicholascowan' id="navLinks"><img src={linkedin} alt="Linked in Logo"/></NavItem>
+                <NavItem href='mailto:ncowan3@outlook.com' id="navLinks"><img src={mail} alt="email link"/></NavItem>
             </Navbar>
         </Headroom>
     )

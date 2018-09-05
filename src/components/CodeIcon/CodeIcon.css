@@ -1,0 +1,29 @@
+.codeIcon .lines path {
+    fill-opacity: 0;
+}
+
+.codeIcon {
+    height: 45vw;
+    width: auto;
+    position: absolute;
+    fill: rgb(255,255,255);
+    stroke: rgba(0,0,0,.4);
+}
+
+.initials {
+    fill: rgb(30,144,255);
+    stroke: rgba(0,0,0,.4);
+}
+
+@media screen and (max-width: 425px) {
+
+    .codeIcon {
+        height: 100vw;
+        fill: none;
+        stroke: rgba(255,255,255,.5);
+    }
+    .initials {
+        fill: rgb(135,206,255);
+        stroke: rgb(30,144,255);
+    }
+}

@@ -1,0 +1,70 @@
+ /* .initials {
+    stroke: rgb(0,0,0);
+    height: 50vh;
+    width: auto;
+    display: flex;
+    flex-direction: flex-start; */
+    /* bottom: 5vh; */
+ /* }   */
+
+#letterN {
+    position: absolute;
+    /* margin-left: -27.5vw;
+    bottom: 37.5vh; */
+}
+
+#letterN .lines path,
+#letterJ .lines path,
+#letterC .lines path {
+    fill-opacity: 0;
+}
+
+#letterJ {
+    position: absolute;
+    /* margin-left: -2vh;
+    bottom: 27vh; */
+}
+
+#letterC {
+    position: absolute;
+    /* margin-left: 0vw;
+    bottom: 17vh; */
+}
+
+@media screen and (max-width: 768px) {
+    .initials {
+        height: 30vh;
+        width: auto;
+    }
+    #letterN {
+        margin-left: -30vw;
+        bottom: 60vh;
+    }
+    #letterJ {
+        margin-left: -17.5vw;
+        bottom: 52.5vh;
+    }
+    #letterC {
+        margin-left: -5vw;
+        bottom: 45vh;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .initials {
+        height: 30vh;
+        width: auto;
+    }
+    #letterN {
+        margin-left: -55vw;
+        bottom: 50vh;
+    }
+    #letterJ {
+        margin-left: -30vw;
+        bottom: 42.5vh;
+    }
+    #letterC {
+        margin-left: -5vw;
+        bottom: 35vh;
+    }
+}
